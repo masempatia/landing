@@ -1,0 +1,65 @@
+@import 'https://morph-60313.firebaseapp.com/morph-1.6.4.css';
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+body, html {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1{
+  font-size: 40px;
+}
+
+iframe{
+  height: 480px;
+  width: 100%;
+}
+
+label{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button{
+  font-size: 14px;
+}
+
+.container{
+  position: relative;
+  margin: auto;
+  width: 900px;
+}
+
+.hide{
+  display: none;
+}
+
+.social-container{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+iframe{
+  height: 360px;
+  width: 100%;
+}
+
+.message{
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.message.error{
+  background: #FFCDD2;
+}
+
+.message.success{
+  background: #C8E6C9;
+}
+
+.message.info{
+  background: #BBDEFB;
+}
